@@ -7,7 +7,7 @@ function updateEmployeeWithKeyAndValue(employee, key, value){
     return {...employee, [key]: value};
 };
 function destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value){
-    employee[key] = value;
+    employee["streetAddress"] = "12 Broadway";
     return employee;
 }
 
